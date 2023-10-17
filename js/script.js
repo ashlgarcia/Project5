@@ -1,6 +1,6 @@
 // Project 9 Additions
 
-// Get the toggle switch and the body element
+// Add toggle switch and the body element
 const modeToggle = document.getElementById("modeToggle");
 const body = document.body;
 
@@ -11,7 +11,7 @@ if (currentMode === "dark") {
     modeToggle.checked = true;
 }
 
-// Add an event listener to the toggle switch
+// Adding event listener to the toggle switch
 modeToggle.addEventListener("change", () => {
     if (modeToggle.checked) {
         body.classList.add("dark-mode");
