@@ -168,3 +168,15 @@ footer {
 
 
 }
+
+/* Default (light) mode */
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
