@@ -136,21 +136,3 @@ body {
 
   }
 
-/*  Project 9 Additions */
-
-/* Default (light) mode */
-body {
-    background-color: #fff;
-    color: #000;
-}
-
-/* Dark mode */
-body.dark-mode {
-    background-color: #333;
-    color: #fff;
-}
-
-/* Project 9 Additions */
-
-  /*# sourceMappingURL=style.css.map */
-  
