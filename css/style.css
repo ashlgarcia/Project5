@@ -139,56 +139,15 @@ body {
 /* Project 9 Additions 
  */
 
-/* CSS variables for light mode */
-:root {
-  --background-color-light: #92bda3;
-  --nav-background-light: rgb(165, 204, 107);
-  --nav-background-image-light: linear-gradient(rgba(159, 252, 223, 0.9), rgba(159, 252, 223, 0.9)), url(./media/plants.jpg);
-  --logo-border-color-light: purple;
-  --nav-link-color-light: aqua;
-  --nav-link-hover-color-light: blue;
-  --section-text-color-light: purple;
-  --button-background-light: #806d40;
-  --button-text-color-light: white;
-  --footer-text-color-light: black;
+#icon{
+    width: 30px;
+    cursor: pointer;
+
+
+    
 }
 
-/* CSS variables for dark mode */
-:root {
-  --background-color-dark: #000; /*  dark background color */
-  --nav-background-dark: #333; /* dark nav background color */
-  --nav-background-image-dark: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./media/plants.jpg); /* dark nav background image */
-  --logo-border-color-dark: #a1ba89; /* dark logo border color */
-  --nav-link-color-dark: #a1ba89; /* dark nav link color */
-  --nav-link-hover-color-dark: #92bda3; /* dark nav link hover color */
-  --section-text-color-dark: #a5cc6b; /* dark section text color */
-  --button-background-dark: #382633; /* dark button background color */
-  --button-text-color-dark: #a1ba89; /* dark button text color */
-  --footer-text-color-dark: #a1ba89; /* dark footer text color */
-}
-
-body {
-  display: block;
-  overflow-x: hidden;
-  background-color: var(--background-color-light); /* initial background color */
-  transition: background-color 0.3s; /*  transition effect */
-}
-
-nav {
-  background-color: var(--nav-background-light); /* initial nav background color */
-  background: var(--nav-background-image-light); /* initial nav background image */
-  transition: background 0.3s, background-color 0.3s; /* transition effect */
-}
-
-/* Add dark mode styles */
-body.dark-mode {
-  background-color: var(--background-color-dark);
-}
-
-nav.dark-mode {
-  background-color: var(--nav-background-dark);
-  background: var(--nav-background-image-dark);
-}
+    
 
 /* 
 End of Project 9 Additions */
