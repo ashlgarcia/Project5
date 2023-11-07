@@ -28,11 +28,13 @@ body {
     cursor: pointer;
 }
 
-nav ul{
+nav ul li a {
+    color: aqua;
+    font-size: 22px;
+    margin: auto 10px;
     flex: 1;
     text-align: right;
-
-}
+  }
     
 
 /* 
